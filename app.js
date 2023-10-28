@@ -16,9 +16,6 @@ const path = require('path');
 app.use('/', express.static(path.resolve('views', 'home')));
 app.use('/signup', express.static(path.resolve('views', 'signup')));
 app.use('/login', express.static(path.resolve('views', 'login')));
-app.use('/catalogify', express.static(path.resolve('views', 'principal')));
-
-
-
+app.use('/catalogify', express.static(path.resolve('views', 'catalogify')));
 
 module.exports = app;
