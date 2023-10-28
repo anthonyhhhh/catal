@@ -14,7 +14,8 @@ height: 100%;
 background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.849), hsl(319, 100%, 96%));
 }
 
-#div { animation: fadeIn 4s; }
+
+#div { animation: fadeIn 2s; }
 
 @keyframes fadeIn {
     0% { opacity: 0; }
