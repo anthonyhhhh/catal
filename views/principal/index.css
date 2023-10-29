@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+width: 100%;
+height: 100%;
+    box-sizing: border-box;
+    display: block;
+    background-color: white;
+background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.849), hsl(319, 100%, 96%));
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #FFF;
+  border: 1px solid #FF9;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="file"] {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #CCC;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #FF9;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.elementos {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.elemento {
+  margin: 10px;
+  padding: 20px;
+  background-color: #FF9;
+  border: 1px solid #FF6;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.elemento img {
+  max-width: 300px;
+}
+
+.eliminar {
+  align-self: flex-end;
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #FF6;
+  border: none;
+  border-radius: 5px;
+  color: #FFF;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  cursor: pointer;
+}
+ca
+#div { animation: fadeIn 2s; }
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
